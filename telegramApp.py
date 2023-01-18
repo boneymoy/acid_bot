@@ -6,7 +6,7 @@ from telegram.ext import MessageHandler, Filters
 UID_PATH = '../frizacidbox/data/uid_list.txt'
 IMG_PATH = '../frizacidbox/image/dream/'
 
-updater = Updater(token='1060673329:AAEIu6rJxVLDf_NPhX2lI2U6AH6zeM5lBEM', use_context=True)
+updater = Updater(token='TOKEN', use_context=True)
 dispatcher = updater.dispatcher
 logging.basicConfig(format='%(ascitime)s - %(name))s - %(levelname)s - %(message)s',
         level=logging.INFO)
